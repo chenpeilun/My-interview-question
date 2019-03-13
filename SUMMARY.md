@@ -1,10 +1,9 @@
 # 前端面试题
 
-> > 来源 https://github.com/chenpeilun/My-interview-question.git
-
 ## 目录
 
 * [前言](README.md)
 * [Vue面试题](Vue.md)
-* 
+* [jQuery面试题](jQuery.md)
+* [前端优化](optimization.md)
 
