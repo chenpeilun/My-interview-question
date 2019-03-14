@@ -124,7 +124,7 @@ new Vue({
 
    比如现在需要监控data中， `obj.a` 的变化。Vue中监控对象属性的变化你可以这样：
 
-   ```vue
+   ```javascript
    watch: {
        obj: {
            handler(newValue, oldValue) {
@@ -137,7 +137,7 @@ new Vue({
 
    还有一种方法，可以通过computed 来实现，只需要
 
-   ```
+   ```javascript
    computed: {
        al() {
            return this.obj.a
@@ -195,7 +195,7 @@ new Vue({
 
    原因在于在Vue实例创建时， `obj.b` 并未声明，因此就没有被Vue转换为响应式的属性，自然就不会触发视图的更新，这时就需要使用Vue的全局api—— `$set()`：
 
-   ```vue
+   ```javascript
    addObjB () {     
      // this.obj.b = 'obj.b'
    
@@ -212,7 +212,7 @@ new Vue({
 
    Vue.delete直接删除了数据改变了数组的键值。
 
-   ```
+   ```javascript
     
    var a=[1,2,3,4]
        
