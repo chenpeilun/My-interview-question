@@ -4,5 +4,5 @@
 
 [目录](SUMMARY.md)
 
-[JavaScript设计模式与开发实践记录](JavaScriptD/1.md)
+[JavaScript设计模式与开发实践记录](JavaScriptD/summary.md)
 
