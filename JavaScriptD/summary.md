@@ -7,3 +7,6 @@
 [高阶函数](2.md)
 
 [单例模式](Singleton.md)
+
+[策略模式](Strategy.md)
+
