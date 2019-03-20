@@ -10,3 +10,5 @@
 
 [策略模式](Strategy.md)
 
+[代理模式](proxy.md)
+
