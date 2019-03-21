@@ -16,3 +16,7 @@
 
 [发布-订阅模式（观察者模式）](Watcher.md)
 
+[命令模式](command.md)
+
+[中介者模式](playerDirector.md)
+
